@@ -1,7 +1,62 @@
-*{
-  color: white;
-  font-size: 20px;
+a{
+  font-size: 30px;
+}
+#item1{
+  background-image: url("../../../assets/img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:700px;
+}
+#item2{
+  background-image: url("../../../assets/img/fondo2.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:700px;
+}
+#item3{
+  background-image: url("../../../assets/img/fondo3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:700px;
+}
+.carousel-control-next, .carousel-control-prev{
+  height: 10%;
+  margin-top: 15%;
+}
+#myCarousel{
+  height: 70%;
+  position: relative;
+  overflow: hidden;
+}
+
+#fondo{
+  position: absolute;
+  background-image:  linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.6));
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+
+}
+#fondo2{
+  position: absolute;
+  z-index: 99;
+
+}
+#uno, #dos, #tres{
+  height: 100%;
 }
 p{
-  font-size: 50px;
+
+  color: white;
 }
+h1{
+  color: white;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+p:hover{
+  color: yellow;
+  font-weight: 600;
+}
+
