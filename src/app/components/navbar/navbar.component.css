@@ -59,4 +59,15 @@ p:hover{
   color: yellow;
   font-weight: 600;
 }
+img{
+  width: 20%;
+  height: auto;
+}
+#krakend{
+  width: 100%;
+}
+.navbar {
+width: 100%;
+}
+
 
