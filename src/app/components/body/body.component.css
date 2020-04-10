@@ -1,0 +1,53 @@
+#formulario{
+
+ margin-left:5px ;
+
+}
+.one {
+  margin: 15px;
+
+
+}
+
+
+#contacto {
+  font-size: 40px;
+  margin:10px ;
+}
+
+
+.card{
+
+  transition: transform .5s;
+}
+.card:hover {
+   transform: scale(1.2);
+}
+
+.desenfoque {
+  -webkit-filter: blur(1px);
+  filter: blur(1.5px);
+  width:100%;
+
+}
+
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.texto-encima{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
